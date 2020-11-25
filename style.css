@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 200px;
+}
+
+body header nav {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header nav button {
+  border-radius: 50%;
+}
+
+body main .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+  background-color: #FFEFD5;
+  margin: auto;
+}
+
+body main .main .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .main .content p {
+  text-align: center;
+  font-size: 50px;
+  padding: 50px;
+}
+
+body main .main .content .img {
+  text-align: center;
+}
+
+body main .main .content .img img {
+  width: 80%;
+}
+
+body main .main .content .p {
+  padding: 20px;
+}
+
+body main .main .content .p p {
+  text-align: center;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */
